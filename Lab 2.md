@@ -40,6 +40,9 @@ These tables contain all of the network information you will need to set up the 
 | LT2  | 10.1.10.6 | 10.1.10.1 | /24 | 10
 | LT3  | 10.1.10.7 | 10.1.10.1 | /24 | 10
 
+
+
+
 | Switch Name |   IP Address | Subnet | VLAN |  
 | - | - | - | - |  
 | Floor-SW-1   | 10.1.11.3 | /24 | 11
@@ -66,19 +69,19 @@ These tables contain all of the network information you will need to set up the 
 
 | Switch       | Switch Interface | End Device | End Device Interface |
 | ------------ | ---------------- | ---------- | ---------------------| 
-| Floor-SW-1   | Fa1              | PC1        | Fe0                  |
-| Floor-SW-1   | Fa2              | PC2        | Fe0                  |
-| Floor-SW-1   | Fa3              | PC3        | Fe0                  |
-| Floor-SW-2   | Fa1              | PC4        | Fe0                  |
-| Floor-SW-2   | Fa2              | PC5        | Fe0                  |
-| Floor-SW-2   | Fa3              | PC6        | Fe0                  |
+| Floor-SW-1   | Fa1              | PC1        | Fa0                  |
+| Floor-SW-1   | Fa2              | PC2        | Fa0                  |
+| Floor-SW-1   | Fa3              | PC3        | Fa0                  |
+| Floor-SW-2   | Fa1              | PC4        | Fa0                  |
+| Floor-SW-2   | Fa2              | PC5        | Fa0                  |
+| Floor-SW-2   | Fa3              | PC6        | Fa0                  |
 | Floor-SW-2   | Fa4              | AP         | Port0                |
-| Floor-SW-3   | Fa1              | PC7        | Fe0                  |
-| Floor-SW-3   | Fa2              | PC8        | Fe0                  |
-| Floor-SW-3   | Fa3              | PC9        | Fe0                  |
-| Floor-SW-4   | Fa1              | PC10       | Fe0                  |
-| Floor-SW-4   | Fa2              | PC11       | Fe0                  |
-| Floor-SW-4   | Fa3              | PC12       | Fe0                  |
+| Floor-SW-3   | Fa1              | PC7        | Fa0                  |
+| Floor-SW-3   | Fa2              | PC8        | Fa0                  |
+| Floor-SW-3   | Fa3              | PC9        | Fa0                  |
+| Floor-SW-4   | Fa1              | PC10       | Fa0                  |
+| Floor-SW-4   | Fa2              | PC11       | Fa0                  |
+| Floor-SW-4   | Fa3              | PC12       | Fa0                  |
 | Floor-SW-4   | Fa4              | SRV        | Fa0                  |
 
 
@@ -93,6 +96,7 @@ These tables contain all of the network information you will need to set up the 
 | Floor-SW-3   | Fa24             | Po1                       | Distro-SW-2   | Fa24                    | Po1                        |
 | Floor-SW-4   | Fa21             | Po1                       | Distro-SW-2   | Fa21                    | Po2                        |
 | Floor-SW-4   | Fa22             | Po1                       | Distro-SW-2   | Fa22                    | Po2                        |
+
 
 | Distro Switch | Distro Switch Interface | Router Number| Router Interface |
 | ------------- | ------------------------| -------------| ---------------- |
