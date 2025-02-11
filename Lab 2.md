@@ -62,6 +62,45 @@ These tables contain all of the network information you will need to set up the 
 | 15 | 10.2.15.0/24 | 
 | 16 | 10.2.16.0/24 |
 
+
+
+| Switch       | Switch Interface | End Device | End Device Interface |
+| ------------ | ---------------- | ---------- | ---------------------| 
+| Floor-SW-1   | Fa1              | PC1        | Fe0                  |
+| Floor-SW-1   | Fa2              | PC2        | Fe0                  |
+| Floor-SW-1   | Fa3              | PC3        | Fe0                  |
+| Floor-SW-2   | Fa1              | PC4        | Fe0                  |
+| Floor-SW-2   | Fa2              | PC5        | Fe0                  |
+| Floor-SW-2   | Fa3              | PC6        | Fe0                  |
+| Floor-SW-2   | Fa4              | AP         | Port0                |
+| Floor-SW-3   | Fa1              | PC7        | Fe0                  |
+| Floor-SW-3   | Fa2              | PC8        | Fe0                  |
+| Floor-SW-3   | Fa3              | PC9        | Fe0                  |
+| Floor-SW-4   | Fa1              | PC10       | Fe0                  |
+| Floor-SW-4   | Fa2              | PC11       | Fe0                  |
+| Floor-SW-4   | Fa3              | PC12       | Fe0                  |
+| Floor-SW-4   | Fa4              | SRV        | Fa0                  |
+
+
+
+| Floor Switch | Switch Interface | Floor Switch Port Channel | Distro Switch | Distro Switch Interface | Distro Switch Port Channel |
+| ------------ | ---------------- | ------------------------- | --------------| ----------------------- | -------------------------- |
+| Floor-SW-1   | Fa23             | Po1                       | Distro-SW-1   | Fa23                    | Po1                        |
+| Floor-SW-1   | Fa24             | Po1                       | Distro-SW-1   | Fa24                    | Po1                        |
+| Floor-SW-2   | Fa21             | Po1                       | Distro-SW-1   | Fa21                    | Po2                        |
+| Floor-SW-2   | Fa22             | Po1                       | Distro-SW-1   | Fa22                    | Po2                        |
+| Floor-SW-3   | Fa23             | Po1                       | Distro-SW-2   | Fa23                    | Po1                        |
+| Floor-SW-3   | Fa24             | Po1                       | Distro-SW-2   | Fa24                    | Po1                        |
+| Floor-SW-4   | Fa21             | Po1                       | Distro-SW-2   | Fa21                    | Po2                        |
+| Floor-SW-4   | Fa22             | Po1                       | Distro-SW-2   | Fa22                    | Po2                        |
+
+| Distro Switch | Distro Switch Interface | Router Number| Router Interface |
+| ------------- | ------------------------| -------------| ---------------- |
+| Distro-SW-1   | Gig 0/1                 | Router-1     | Gig 0/1/0        |
+| Distro SW-2   | Gig 0/1                 | Router-2     | Gig 0/1/0        |
+
+
+
 ## Routers
 
 ### Adding a Switch Module to the Router
