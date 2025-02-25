@@ -160,7 +160,7 @@ Spanning Tree Protocol (STP) is a network protocol used to prevent loops in Ethe
      ```
      ip route 10.2.15.0 255.255.255.0 192.168.1.2
      ```
-     This will send any traffic that is in the destination range 10.2.15.0/24 from core-1 to core-2 but you also need to send the response back and that will require its own static route. You will also need to summarize the routes between the core routers to make your routes as efficient as possible.
+     This will send any traffic that is in the destination range 10.2.15.0/24 from core-1 to core-2 but you also need to send the response back and that will require its own static route. You will also need to summarize the routes between the core routers to make your routes as efficient as possible. Here is a helpful link https://www.davidc.net/sites/default/subnets/subnets.html
 
 1. **Verifying Static Routes**
    - Verify the static routes configuration using the `show ip route` command on the router's CLI.
