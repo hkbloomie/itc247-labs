@@ -129,7 +129,7 @@ ip address 10.0.0.1 255.255.255.0
 
 <div style="page-break-after: always"></div>
 
-## Passwords && SSH
+## Passwords & SSH
 
 Passwords and SSH (Secure Shell) play critical roles in securing access to Cisco devices such as routers and switches. They are essential components of network security and help protect sensitive information from unauthorized access and malicious attacks. You will need to set up a password and SSH access on 3 switches, and 1 router. In a real environment, you would set these up on all devices but for the purposes of this lab, it will just be a selection. SSH access should work from PC2 to all the devices you will set up SSH on, all of these devices will need to be on the left side of your network and in the 10.1.11.0/24 range.
 
