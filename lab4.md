@@ -224,7 +224,8 @@ To enable SSH on a Cisco device, you need to generate RSA key pairs, configure t
   - Core-3 has the loopback address set for area 0  (10 Points)
   - All 3 routers have been set up to use area 1 for OSPF with the correct networks  (10 Points)
   - All 3 routers have passwords set for OSPF authentication  (10 Points)
-  - Disabling the connection between any 2 core routers still allows the network to function (20 Points)
+  - Disabling the connection between any 2 core routers still allows the network to function (10 Points)
+  - Any PC in VLAN 10-11 & 13-15 can ping each other. (10 Points)
 - Port Forwarding (10 Points)
    - Any PC in the 10.1.0.0/16 range can access the website through a WAN IP of core 2
 
