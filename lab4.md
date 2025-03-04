@@ -16,7 +16,7 @@ In this lab, we'll be diving into enhancing network security and optimizing rout
 
 We will be working with the same base topology you created in labs 1-3 and adding to it. You'll need to add the third router for this lab. Ignore the firewalls in the diagram.
 
-![](./Lab-4-images/topology1.png)
+![](./Lab-4-Images/topology1.png)
 
 
 These tables contain all of the network information you will need to set up the network for Lab 4. They are the same tables from the previous labs but with added information for this lab.
