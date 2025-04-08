@@ -112,7 +112,7 @@ Your switch must be configured to the following criteria:
 - Configure port 0/4 for the access point to have the native VLAN 12 and management VLAN to 13
 - Configure port 0/5 for the management PC to VLAN 12
 - Disable all non-used ports
-- Set a switch password
+- Set a switch password NOT DONE
 - Set up SSH on the switch
 - Enable port security on each needed port so only that device’s MAC address can use the switch
 
